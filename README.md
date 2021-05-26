@@ -3,7 +3,10 @@ A small python script that accesses the Hetzner API to update DNS records that s
 
 ## Disclaimer
 I know that this script is kind of overkill for this simple task. Also by all this functionality it could offer a way more flexible configuration for example.
-But since this was just a fun experience for me messing around with Python functions and stuff I didn't bother putting too much effort into creating a "professional script". 
+But since this was just a fun experience for me messing around with Python functions and stuff I didn't bother putting too much effort into creating a "professional script".
+
+> I do not guarantee the functionality of this script.
+> The main purpose of it is to play around with Python and learn some new stuff in the best case.
 
 ## Usage
 ### Configuration
