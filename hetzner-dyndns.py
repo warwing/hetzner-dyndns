@@ -104,7 +104,7 @@ if level is None:
 ## Configure logger
 ##
 
-LOG_FILENAME = "dyndns.log"
+LOG_FILENAME = f"{os.path.dirname(__file__)}/dyndns.log"
 
 # Create logger
 logger = logging.getLogger("hetzner-dyndns")
