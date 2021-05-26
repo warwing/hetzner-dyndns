@@ -1,4 +1,4 @@
-# hetzner-dyndns
+# 🌐 Hetzner DynDns
 A small python script that accesses the Hetzner API to update DNS records that sends out a warning email if some tasks failed.
 
 ## Disclaimer
