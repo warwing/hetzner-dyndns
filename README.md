@@ -1,7 +1,7 @@
 # hetzner-dyndns
 A small python script that accesses the Hetzner API to update DNS records that sends out a warning email if some tasks failed.
 
-## General
+## Disclaimer
 I know that this script is kind of overkill for this simple task. Also by all this functionality it could offer a way more flexible configuration for example.
 But since this was just a fun experience for me messing around with Python functions and stuff I didn't bother putting too much effort into creating a "professional script". 
 
