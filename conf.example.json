@@ -1,0 +1,30 @@
+{
+    "smtpPort": 465,
+    "smtpServer": "smtp.yourserver.com",
+    "smtpUser": "watchdog@yourserver.com",
+    "smtpPassword": "********************************",
+
+    "warningReceiver": "admin@yourserver.com",
+
+
+    "apiKey": "********************************",
+
+    "zoneId": "********************************",
+
+    "apiBaseUrl": "https://dns.hetzner.com/api/v1",
+
+    "records": [
+        {
+            "id": "********************************",
+            "ttl": 120,
+            "type": "A",
+            "name": "@"
+        },
+        {
+            "id": "********************************",
+            "ttl": 120,
+            "type": "A",
+            "name": "cloud"
+        }
+    ]
+}
