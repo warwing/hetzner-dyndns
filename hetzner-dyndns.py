@@ -26,7 +26,7 @@ parser.add_argument(
 parser.add_argument(
     "-c",
     "--configFile",
-    default="/home/jakob/hetzner/conf.json",
+    default=f"{os.path.dirname(__file__)}/conf.json",
     help="Set the config file location")
 
 options = parser.parse_args()
@@ -104,7 +104,7 @@ if level is None:
 ## Configure logger
 ##
 
-LOG_FILENAME = "/var/log/hetzner/dyndns.log"
+LOG_FILENAME = "dyndns.log"
 
 # Create logger
 logger = logging.getLogger("hetzner-dyndns")
@@ -123,6 +123,8 @@ fh.setFormatter(formatter)
 logger.addHandler(fh)
 
 logger.info("Executing script...")
+
+
 
 ##
 ## Configuration

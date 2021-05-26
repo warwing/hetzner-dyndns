@@ -1,2 +1,7 @@
 .vscode/
+
+# Ignore main config file
 conf.json
+
+# Ignore log files
+*.log

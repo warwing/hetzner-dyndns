@@ -11,4 +11,7 @@ Clone the repository into your desired location then create a customized configu
 
 The configuration names are pretty self-explanatory; Get your API key from Hetzner as well as all your desired Zone ID with the reffering Record IDs. Then add all records that you want to be updated to the configuration file (two examples are already there).
 
+### Run it
+Running the script is straightforward. By default the log level is set to `INFO` and logs will be stored in the script location. The default configuration file name is `/execution-path/conf.json`.
+
 
