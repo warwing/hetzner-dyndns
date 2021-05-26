@@ -19,4 +19,10 @@ For more details make use of the *help* parameter as seen below;
 ./hetzner-dyndns.py --help
 ```
 
+### Crontab
+In most cases you want the script to be run on a scheduled basis. For this I am using the following crontab configuration;
+```
+*/5 * * * * ~/git/hetzner-dyndns/hetzner-dyndns.py
+```
+
 
